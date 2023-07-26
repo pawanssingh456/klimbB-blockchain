@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# TypeScript
+*.js
+*.js.map
+*.d.ts
+
+# Build output
+/dist/
+/data/
+
+# IDE files (optional)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables file (optional, but good practice not to commit it)
+.env
+
+# Logs and other temporary files (optional)
+*.log
+*.tmp
+*.tmp.*
+*.swp
+
+# Dependency directories (optional, if you use a different package manager)
+/pnpm-lock.yaml
+/shrinkwrap.yaml
+/yarn.lock
+
+# Output of `npm build` (if you use a different build output directory)
+/build/
+/out/
